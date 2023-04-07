@@ -1,0 +1,76 @@
+:root {
+  --background-color: #FBEEC1;
+  --text-color: #070707;
+  --primary-color: #F68E5F;
+  --secondary-color: #3454D1;
+  --accent-color: #F5FF90;
+}
+
+.dark-theme {
+  --background-color: #070707;
+  --text-color: #EBF2FA;
+  --primary-color: #F5FF90;
+  --secondary-color: #F68E5F;
+  --accent-color: #3454D1;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav .nav-names,
+.bottom-nav .nav-names {
+  color: var(--primary-color);
+}
+
+.top-nav .nav-names:hover,
+.bottom-nav .nav-names:hover {
+  color: var(--secondary-color);
+}
+
+.text-name {
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.subtext-name {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-evenly;
+  grid-column: 1;
+  padding: 20px;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  grid-column: 1;
+}
