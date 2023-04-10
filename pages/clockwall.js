@@ -1,5 +1,5 @@
 import React from 'react'
-import Clock from '../components/clock';
+import Clock from '../components/Clock';
 import Layout from '../components/Layout';
 
 function clockwall() {
