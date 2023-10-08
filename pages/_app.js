@@ -1,12 +1,8 @@
-import { NextUIProvider } from '@nextui-org/react';
-import '/styles/Homepage.css';
-import '../styles/globals.css';
+import '../styles/home.scss';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <NextUIProvider>
       <Component {...pageProps} />
-    </NextUIProvider>
   );
 }
 

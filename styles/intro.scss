@@ -1,0 +1,59 @@
+section#intro {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#intro p {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  opacity: 0;
+  position: relative;
+  top: -50px;
+  transition: opacity 1s ease-in, top 1s ease-out;
+}
+
+section#intro.visible p {
+  opacity: 1;
+  top: 0;
+}
+
+section#intro a {
+  border: 3px solid $gold;
+  border-radius: 7px;
+  color: $gold;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 1s ease-in, bottom 1s ease-out;
+}
+
+section#intro.visible a {
+  bottom: 0;
+  opacity: 1;
+}
+
+section#intro span {
+  color: $gold;
+  font-family: 'Young Serif', serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+section#intro img {
+  max-width: 300px;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+section#intro.visible img {
+  opacity: .6;
+}
