@@ -1,0 +1,52 @@
+section#contact {
+  border-top: 2px solid $gold;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  padding: 100px 0;
+
+  h2 {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    width: 354px;
+    margin-left: -177px;
+    background-color: #235789;
+    display: inline-block;
+    padding: 0 50px;
+  }
+
+  div.box-container {
+    .box {
+      background-color: rgb(45, 45, 45);
+      display: inline-block;
+      width: 250px;
+      margin: 10px;
+      display: inline-flex;
+      align-items: center;
+      padding: 15px;
+      border-radius: 15px;
+      justify-content: center;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+      opacity: 0;
+      transition: all .8s ease-in-out;
+      img {
+        height: 30px;
+        margin-right: 10px;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+section#contact.visible {
+  div.box-container {
+    .box {
+      opacity: 1;
+    }
+  }
+}

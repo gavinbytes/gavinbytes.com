@@ -6,15 +6,6 @@ section#skills {
 
 section#skills h2 {
   text-align: center;
-  opacity: 0;
-  position: relative;
-  top: -20px;
-  transition: all 1s ease-in-out;
-}
-
-section#skills.visible h2 {
-  opacity: 1;
-  top: 0;
 }
 
 .skills-container {

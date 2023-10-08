@@ -6,7 +6,7 @@ function About() {
       <div className='center'>
         <h2>About</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque labore quasi recusandae excepturi accusamus beatae delectus repellendus reprehenderit, dolor sequi iure provident molestias nobis cum, commodi reiciendis deleniti, magnam dolore.
+          A <span>banana slug</span> who from the University of California, Santa Cruz with a B.S. in Computer Science. I have a passion for creating applications that are both functional and beautiful. I am a quick learner and I am always looking to expand my knowledge and skillset. I am currently looking for a full-time position as a software engineer.
         </p>
       </div>
     </section>
