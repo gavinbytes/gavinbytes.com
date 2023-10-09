@@ -11,14 +11,14 @@ section#contact {
     left: 50%;
     width: 354px;
     margin-left: -177px;
-    background-color: #235789;
+    background-color: $blue;
     display: inline-block;
     padding: 0 50px;
   }
 
   div.box-container {
     .box {
-      background-color: rgb(45, 45, 45);
+      background-color: $darkblue;
       display: inline-block;
       width: 250px;
       margin: 10px;
@@ -36,7 +36,7 @@ section#contact {
       }
 
       a {
-        color: white;
+        color: $gold;
         text-decoration: none;
       }
     }

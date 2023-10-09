@@ -18,7 +18,7 @@ section#projects img {
 }
 
 .project-box {
-  background-color: rgb(45, 45, 45);
+  background-color: $darkblue;
   display: grid;
   grid-template-columns: repeat(3, auto);
   align-items: center;

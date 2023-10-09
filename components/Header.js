@@ -3,12 +3,12 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <img className='logo' src='img/ga-logo.png' alt='logo'/>
+      <img className='logo' src='favicon.ico' alt='logo'/>
       <nav>
         <a href='#about'>About</a>
         <a href='#projects'>Projects</a>
         <a href='#contact'>Contact</a>
-        <a className='resume' href='gavin_resume.pdf' target="_blank" rel="noopener noreferrer">Resume</a>
+        <a className='resume' href='gavins_resume.pdf' target="_blank" rel="noopener noreferrer">Resume</a>
       </nav>
       <div className='social'>
         <a href='https://www.linkedin.com/in/gavinleonel/' target="_blank">

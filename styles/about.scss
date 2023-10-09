@@ -1,7 +1,9 @@
 section#about {
-  background-color: #193E61;
-  box-shadow: inset 0 10px 10px rgb((0), 0, 0, .2);
+  background-color: $blue;
+  // box-shadow: inset 0 10px 10px rgb((0), 0, 0, .2);
   padding: 100px 0;
+  // border-top: 2px solid $gold;
+  // margin-top: 50px;
 }
 
 section#about p {
