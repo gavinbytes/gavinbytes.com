@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Young+Serif&display=swap');
+
+$smokey: #F0F0F0;
+$gold2: #FAC86B;
+$gold: #CBB279;
+$blue: #537188;
+$darkblue: #2B3A46;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $blue;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.center {
+  max-width: 780px;
+  margin: 0 auto;;
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,66 @@
+section#projects {
+  padding: 100px 0;
+}
+
+section#projects h2 {
+  text-align: center;
+}
+
+section#projects img {
+  display: inline-block;
+  max-width: 100px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-rows: repeat(3, 4fr);
+  gap: 20px;
+}
+
+.project-box {
+  background-color: $darkblue;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  gap: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+  opacity: 0;
+  position: relative;
+  bottom: -40px;
+  transition: opacity .5s ease-in, bottom .5s ease-out;
+}
+
+.projects-container.visible .project-box{
+  opacity: 1;
+  bottom: 0;
+}
+
+@for $i from 1 through 3 {
+  .project-box:nth-child(#{$i + 1}) {
+    transition-delay: #{$i * .2s};
+  }
+}
+
+.project-box h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+
+.links {
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+}
+
+.img-container {
+  // justify-content: center;
+  // align-items: center;
+}
+
+.links img {
+  width: 30px;
+}
